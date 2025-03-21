@@ -29,7 +29,7 @@ Artisan Alley is a digital marketplace where artisans can showcase and sell hand
 - **Day 9-10 (Frontend):** Develop cart and checkout UI and integrate with backend.
 - **Day 11-12 (Backend):** Build order processing and payment logic.
 - **Day 11-12 (Frontend):** Implement order confirmation and payment UI.
-- **Day 13-14:** Test the backend API endpoints using Postman and frontend integration.
+- **Day 13-14:** Test the backend API endpoints using Postman and frontend integration .
 
 ### **Week 3: Advanced Development**
 - **Day 15-16 (Backend):** Implement order tracking system.
