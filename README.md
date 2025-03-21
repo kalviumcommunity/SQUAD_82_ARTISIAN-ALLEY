@@ -21,13 +21,13 @@ Artisan Alley is a digital marketplace where artisans can showcase and sell hand
 - **Day 4:** Set up the tech stack (MERN) and environment, design the database schema.
 
 ### **Week 2: Core Development**
-- **Day 5-7 (Backend):** Implement user authentication (signup for artisans and buyers).
-- **Day 5-7(Frontend):** Create authentication UI and integrate with backend. 
-- **Day 8-10:**  login page frontend 
-- **Day 8-10:**  login page backend
-- **Day 11-12 (frontend):** product page
-- **Day 13-14 (backend):** product page
-- **Day 12-13 (frontend):** Implement the cart and checkout system.
+- **Day 5-6 (Backend):** Implement user authentication (signup for artisans and buyers).
+- **Day 5-6(Frontend):** Create authentication UI and integrate with backend. 
+- **Day 7-8:**  login page frontend 
+- **Day 7-8:**  login page backend
+- **Day 9-10 (frontend):** product page
+- **Day 9-10 (backend):** product page
+- **Day 11-12 (frontend):** Implement the cart and checkout system.
 - **Day 12-13 (backend):** Develop the cart and checkout pages.
 - **Day 14:** Test the backend API endpoints using Postman.
 
