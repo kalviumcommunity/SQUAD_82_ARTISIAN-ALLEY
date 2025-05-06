@@ -19,7 +19,7 @@ const otpRoutes = require("./routes/otpRoutes");
 
 app.use("/api", authRoutes);        
 app.use("/api2", otpRoutes);        
-r
+
 app.use((err, req, res, next) => {
   res.status(err.statusCode || 500).json({
     success: false,
@@ -27,15 +27,21 @@ app.use((err, req, res, next) => {
   });
 });
 
+const MONGO_URL=process.env.MONGO_URL;
 
-mongoose
-  .connect(process.env.MONGO_URI)
-  .then(() => {
-    console.log("MongoDB connected");
-    app.listen(process.env.PORT, () => {
-      console.log(`Server running on http://localhost:${process.env.PORT}`);
-    });
-  })
-  .catch((err) => {
-    console.error("MongoDB connection failed", err);
+const mongo=async ()=>{
+   try{ 
+    await mongoose.connect(MONGO_URL)
+    console.log("successfully connected")
+   }
+   catch(e){
+    console.log("doesn't connected successfully",e.message)
+   }
+}
+
+mongo();
+
+  app.listen(process.env.PORT, () => {
+    console.log(`Server running on http://localhost:${process.env.PORT}`);
   });
+  
