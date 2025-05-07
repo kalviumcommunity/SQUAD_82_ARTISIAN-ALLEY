@@ -2,6 +2,10 @@ const express = require("express");
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");
 const cors = require("cors");
+const productRoutes = require('./routes/productRoutes');
+const userRoutes = require('./routes/userRoutes');
+const orderRoutes = require('./routes/orderRoutes');
+const cartRoutes = require('./routes/cartRoutes');
 
 dotenv.config();
 
@@ -15,7 +19,12 @@ app.use(cors({
 
 
 const authRoutes = require("./routes/auth");     
-const otpRoutes = require("./routes/otpRoutes");   
+const otpRoutes = require("./routes/otpRoutes"); 
+
+app.use('/api/products', productRoutes);
+app.use('/api/users', userRoutes);
+app.use('/api/orders', orderRoutes);
+app.use('/api/cart', cartRoutes);
 
 app.use("/api", authRoutes);        
 app.use("/api2", otpRoutes);        
