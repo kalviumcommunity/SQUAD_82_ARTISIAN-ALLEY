@@ -50,3 +50,4 @@ Artisan Alley is a digital marketplace where artisans can showcase and sell hand
 
 ### **Render Deployment Link**
 -http://localhost:5000
+-https://squad-82-artisian-alley-8.onrender.com
