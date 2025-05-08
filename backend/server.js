@@ -50,7 +50,7 @@ const mongo=async ()=>{
 
 mongo();
   app.get('/',(req,res)=>{
-    res.send("Hello World!");
+    res.send("Hello Mithra!");
   })
   app.listen(process.env.PORT, () => {
     console.log(`Server running on http://localhost:${process.env.PORT}`);
