@@ -48,3 +48,5 @@ Artisan Alley is a digital marketplace where artisans can showcase and sell hand
 - **Day 28-29:** Deploy the frontend on Vercel and backend on Render.
 - **Day 30:** Final review and launch! 🚀
 
+### **Render Deployment Link**
+-http://localhost:5000
