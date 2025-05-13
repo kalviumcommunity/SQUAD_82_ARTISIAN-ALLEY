@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "artisan-alley",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

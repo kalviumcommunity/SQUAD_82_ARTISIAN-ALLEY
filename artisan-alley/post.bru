@@ -1,0 +1,23 @@
+meta {
+  name: post
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:5000/api/products
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+   "name": "Terracotta",
+    "description": "A beautifully handcrafted terracotta vase made by local artisans.",
+    "price": 499,
+    "category": "Home Decor",
+    "stock": 20,
+    "image": "https://example.com/images/terracotta-vase.jpg",
+    "seller": "644a1d2c0e1f8c21c88c1b3a"
+  }
+}
