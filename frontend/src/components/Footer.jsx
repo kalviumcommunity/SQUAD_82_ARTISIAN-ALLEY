@@ -34,7 +34,7 @@ const Footer = () => {
             <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
           </div>
           <p className="mt-4">Email: support@artisanalley.com</p>
-          <p>Phone: ‪+91-12345-67890‬</p>
+          <p></p>
         </div>
       </div>
 
